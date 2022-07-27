@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: linear-gradient(-45deg, #353535,#99a8ad); 
+  margin: 0 10px;
+}
+
+.bodywrapper {
+    background: #f1f4f5;
+    width: 95%;
+    margin: 0 auto;
+    height: auto;
+}
+.header {
+    text-align: center;
+}
+
+h3 {
+    margin: 10px;
+    padding: 10px;
+    outline: 2px solid #e9fbf4;
+}
+.instructorTableCont{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+instructorCourseListCont {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+.OtherTablesection div{
+    margin-top: 30px;
+    border-radius: 5px;
+
+}
+
+.sectionCont {
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.sectionCont section {
+    width: 45%;
+    margin: 10px auto;
+    outline: #ddd 1px solid;
+    padding: 10px;
+    box-shadow: 1px 3px #c5c4c4;
+}
+
+
+table {
+    outline: #ddd 1px solid;
+    padding: 10px;
+    box-shadow: 1px 3px #c5c4c4;
+    width: 90%;
+    margin: 0px auto;
+}
+
+table thead tr {
+    color: #fff;
+    background: #355764;
+    text-align: left;
+    font-weight: bold;
+}
+
+table th,
+table td{
+    padding: 12px 15px;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+table tbody tr:nth-of-type(odd){
+    background: #c5c4c4;
+}
+table tbody tr:hover{
+    font-weight: bold;
+    background-color: #99a8ad;
+}
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #4AD489;
+} 
+
+.instrCard img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.instrCard {
+    display: flex;
+}
+
+.instrCard div {
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+ul li{
+    margin-top: 4px;
+    border-bottom: 1px solid #355764;
+}
+
+ul li:hover{
+    background-color: #99a8ad;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+
+    .sectionCont {
+        display: block;
+        padding: 20px;
+        box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+
+    }
+    .sectionCont section {
+        width: auto;
+        margin: 10px auto;
+        outline: #ddd 1px solid;
+        padding: 10px;
+        box-shadow: 1px 3px #c5c4c4;
+    }
+    
+  }
+
